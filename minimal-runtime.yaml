@@ -1,0 +1,119 @@
+document: modulemd
+version: 1
+data:
+  summary: Minimal Runtime
+  description: Test runtime with only libc
+  license:
+    module:
+    - MIT
+  dependencies:
+    buildrequires:
+    requires:
+  profiles:
+    runtime:
+      rpms:
+        - basesystem
+        - bash
+        - fedora-release
+        - fedora-repos
+        - filesystem
+        - glibc
+        - glibc-langpack-en
+        - glibc-common
+        - libcrypt-nss
+        - libselinux
+        - libsepol
+        - ncurses
+        - ncurses-libs
+        - nss-softokn-freebl
+        - pcre
+        - setup
+        - tzdata
+    buildroot:
+      rpms:
+      - flatpak-rpm-macros
+      - flatpak-runtime-config
+  api:
+    rpms:
+      - basesystem
+      - bash
+      - fedora-release
+      - fedora-repos
+      - filesystem
+      - flatpak-rpm-macros
+      - flatpak-runtime-config
+      - glibc
+      - glibc-langpack-en
+      - glibc-common
+      - libcrypt-nss
+      - libselinux
+      - libsepol
+      - ncurses
+      - ncurses-libs
+      - nss-softokn-freebl
+      - pcre
+      - setup
+      - tzdata
+  components:
+    rpms:
+      basesystem:
+        rationale: ""
+        ref: f26
+      bash:
+        rationale: ""
+        ref: f26
+      fedora-release:
+        rationale: ""
+        ref: f26
+      fedora-repos:
+        rationale: ""
+        ref: f26
+      filesystem:
+        rationale: ""
+        ref: f26
+      flatpak-rpm-macros:
+        rationale: ""
+        ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
+      flatpak-runtime-config:
+        rationale: ""
+        ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
+      glibc:
+        rationale: ""
+        ref: f26
+      libselinux:
+        rationale: ""
+        ref: f26
+      libsepol:
+        rationale: ""
+        ref: f26
+      ncurses:
+        rationale: ""
+        ref: f26
+      nss-softokn:
+        rationale: ""
+        ref: f26
+      pcre:
+        rationale: ""
+        ref: f26
+      setup:
+        rationale: ""
+        ref: f26
+      tzdata:
+        rationale: ""
+        ref: f26
+  xmd:
+    fake-module:
+      import:
+        - basesystem
+        - bash
+        - fedora-release
+        - fedora-repos
+        - filesystem
+        - glibc
+        - libselinux
+        - libsepol
+        - ncurses
+        - nss-softokn
+        - pcre
+        - setup
+        - tzdata

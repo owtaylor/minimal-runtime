@@ -23,7 +23,7 @@ data:
         - libcrypt-nss
         - libselinux
         - libsepol
-        - ncurses
+        - ncurses-base
         - ncurses-libs
         - nss-softokn-freebl
         - pcre
@@ -48,7 +48,7 @@ data:
       - libcrypt-nss
       - libselinux
       - libsepol
-      - ncurses
+      - ncurses-base
       - ncurses-libs
       - nss-softokn-freebl
       - pcre

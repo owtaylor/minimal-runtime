@@ -25,7 +25,9 @@ data:
         - libsepol
         - ncurses-base
         - ncurses-libs
+        - nspr
         - nss-softokn-freebl
+        - nss-util
         - pcre
         - setup
         - tzdata
@@ -50,7 +52,9 @@ data:
       - libsepol
       - ncurses-base
       - ncurses-libs
+      - nspr
       - nss-softokn-freebl
+      - nss-util
       - pcre
       - setup
       - tzdata
@@ -89,7 +93,13 @@ data:
       ncurses:
         rationale: ""
         ref: f26
+      nspr:
+        rationale: ""
+        ref: f26
       nss-softokn:
+        rationale: ""
+        ref: f26
+      nss-util:
         rationale: ""
         ref: f26
       pcre:

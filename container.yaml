@@ -1,0 +1,6 @@
+compose:
+    modules:
+    - minimal-runtime:f26
+flatpak:
+    id: org.fedoraproject.MinimalPlatform
+    branch: f26

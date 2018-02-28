@@ -112,6 +112,11 @@ data:
         rationale: ""
         ref: f26
   xmd:
+    flatpak:
+      branch: f26
+      runtimes:
+          runtime:
+              id: org.fedoraproject.MinimalPlatform
     fake-module:
       import:
         - basesystem

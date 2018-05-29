@@ -70,10 +70,10 @@ data:
     rpms:
       flatpak-rpm-macros:
         rationale: ""
-        ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
+        ref: master
       flatpak-runtime-config:
         rationale: ""
-        ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
+        ref: master
   xmd:
     flatpak:
       branch: f28

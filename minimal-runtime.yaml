@@ -62,19 +62,19 @@ data:
     rpms:
       basesystem:
         rationale: ""
-        ref: f26
+        ref: f28
       bash:
         rationale: ""
-        ref: f26
+        ref: f28
       fedora-release:
         rationale: ""
-        ref: f26
+        ref: f28
       fedora-repos:
         rationale: ""
-        ref: f26
+        ref: f28
       filesystem:
         rationale: ""
-        ref: f26
+        ref: f28
       flatpak-rpm-macros:
         rationale: ""
         ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
@@ -83,37 +83,37 @@ data:
         ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
       glibc:
         rationale: ""
-        ref: f26
+        ref: f28
       libselinux:
         rationale: ""
-        ref: f26
+        ref: f28
       libsepol:
         rationale: ""
-        ref: f26
+        ref: f28
       ncurses:
         rationale: ""
-        ref: f26
+        ref: f28
       nspr:
         rationale: ""
-        ref: f26
+        ref: f28
       nss-softokn:
         rationale: ""
-        ref: f26
+        ref: f28
       nss-util:
         rationale: ""
-        ref: f26
+        ref: f28
       pcre:
         rationale: ""
-        ref: f26
+        ref: f28
       setup:
         rationale: ""
-        ref: f26
+        ref: f28
       tzdata:
         rationale: ""
-        ref: f26
+        ref: f28
   xmd:
     flatpak:
-      branch: f26
+      branch: f28
       runtimes:
           runtime:
               id: org.fedoraproject.MinimalPlatform

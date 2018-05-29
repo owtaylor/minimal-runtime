@@ -1,5 +1,5 @@
 {
         "runtime": "org.fedoraproject.MinimalPlatform",
-        "runtime-version": "26",
+        "runtime-version": "f28",
         "sdk": "org.fedoraproject.MinimalSdk"
 }

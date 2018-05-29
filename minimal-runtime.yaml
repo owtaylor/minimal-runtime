@@ -8,7 +8,9 @@ data:
     - MIT
   dependencies:
     buildrequires:
+      platform: f28
     requires:
+      platform: f28
   profiles:
     runtime:
       rpms:
@@ -37,100 +39,19 @@ data:
       - flatpak-runtime-config
   api:
     rpms:
-      - basesystem
-      - bash
-      - fedora-release
-      - fedora-repos
-      - filesystem
       - flatpak-rpm-macros
       - flatpak-runtime-config
-      - glibc
-      - glibc-langpack-en
-      - glibc-common
-      - libcrypt-nss
-      - libselinux
-      - libsepol
-      - ncurses-base
-      - ncurses-libs
-      - nspr
-      - nss-softokn-freebl
-      - nss-util
-      - pcre
-      - setup
-      - tzdata
   components:
     rpms:
-      basesystem:
-        rationale: ""
-        ref: f28
-      bash:
-        rationale: ""
-        ref: f28
-      fedora-release:
-        rationale: ""
-        ref: f28
-      fedora-repos:
-        rationale: ""
-        ref: f28
-      filesystem:
-        rationale: ""
-        ref: f28
       flatpak-rpm-macros:
         rationale: ""
         ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
       flatpak-runtime-config:
         rationale: ""
         ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
-      glibc:
-        rationale: ""
-        ref: f28
-      libselinux:
-        rationale: ""
-        ref: f28
-      libsepol:
-        rationale: ""
-        ref: f28
-      ncurses:
-        rationale: ""
-        ref: f28
-      nspr:
-        rationale: ""
-        ref: f28
-      nss-softokn:
-        rationale: ""
-        ref: f28
-      nss-util:
-        rationale: ""
-        ref: f28
-      pcre:
-        rationale: ""
-        ref: f28
-      setup:
-        rationale: ""
-        ref: f28
-      tzdata:
-        rationale: ""
-        ref: f28
   xmd:
     flatpak:
       branch: f28
       runtimes:
           runtime:
               id: org.fedoraproject.MinimalPlatform
-    fake-module:
-      import:
-        - basesystem
-        - bash
-        - fedora-release
-        - fedora-repos
-        - filesystem
-        - glibc
-        - libselinux
-        - libsepol
-        - ncurses
-        - nss-util
-        - nss-softokn
-        - nspr
-        - pcre
-        - setup
-        - tzdata

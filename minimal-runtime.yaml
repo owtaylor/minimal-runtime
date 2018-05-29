@@ -14,25 +14,50 @@ data:
   profiles:
     runtime:
       rpms:
+        - audit-libs
         - basesystem
         - bash
+        - bzip2-libs
+        - ca-certificates
+        - chkconfig
+        - coreutils
+        - coreutils-common
+        - crypto-policies
+        - fedora-gpg-keys
         - fedora-release
         - fedora-repos
         - filesystem
         - glibc
-        - glibc-langpack-en
         - glibc-common
-        - libcrypt-nss
+        - glibc-minimal-langpack
+        - gmp
+        - grep
+        - info
+        - libacl
+        - libattr
+        - libcap
+        - libcap-ng
+        - libffi
         - libselinux
+        - libsemanage
         - libsepol
+        - libtasn1
+        - libxcrypt
+        - ncurses
         - ncurses-base
         - ncurses-libs
-        - nspr
-        - nss-softokn-freebl
-        - nss-util
+        - openssl-libs
+        - p11-kit
+        - p11-kit-trust
         - pcre
+        - pcre2
+        - popt
+        - sed
         - setup
+        - shadow-utils
+        - tar
         - tzdata
+        - zlib
     buildroot:
       rpms:
       - flatpak-rpm-macros

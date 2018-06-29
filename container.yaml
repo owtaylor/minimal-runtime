@@ -4,3 +4,5 @@ compose:
 flatpak:
     id: org.fedoraproject.MinimalPlatform
     branch: f28
+platforms:
+    only: ['x86_64']

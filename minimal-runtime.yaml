@@ -82,6 +82,7 @@ data:
               id: org.fedoraproject.MinimalPlatform
     fake-module:
       import:
+        - acl
         - audit
         - basesystem
         - bash
@@ -96,7 +97,6 @@ data:
         - glibc
         - gmp
         - grep
-        - libacl
         - libattr
         - libcap
         - libcap-ng

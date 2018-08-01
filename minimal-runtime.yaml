@@ -80,3 +80,20 @@ data:
       runtimes:
           runtime:
               id: org.fedoraproject.MinimalPlatform
+    fake-module:
+      import:
+        - basesystem
+        - bash
+        - fedora-release
+        - fedora-repos
+        - filesystem
+        - glibc
+        - libselinux
+        - libsepol
+        - ncurses
+        - nss-util
+        - nss-softokn
+        - nspr
+        - pcre
+        - setup
+        - tzdata

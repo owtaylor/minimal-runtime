@@ -96,7 +96,6 @@ data:
         - glibc
         - gmp
         - grep
-        - info
         - libacl
         - libattr
         - libcap
@@ -120,5 +119,6 @@ data:
         - setup
         - shadow-utils
         - tar
+        - texinfo
         - tzdata
         - zlib

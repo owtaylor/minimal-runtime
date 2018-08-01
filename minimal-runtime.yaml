@@ -82,18 +82,43 @@ data:
               id: org.fedoraproject.MinimalPlatform
     fake-module:
       import:
+        - audit
         - basesystem
         - bash
+        - bzip2
+        - ca-certificates
+        - chkconfig
+        - coreutils
+        - crypto-policies
         - fedora-release
         - fedora-repos
         - filesystem
         - glibc
+        - gmp
+        - grep
+        - info
+        - libacl
+        - libattr
+        - libcap
+        - libcap-ng
+        - libffi
         - libselinux
+        - libsemanage
         - libsepol
+        - libtasn1
+        - libxcrypt
         - ncurses
         - nss-util
         - nss-softokn
         - nspr
+        - openssl
+        - p11-kit
         - pcre
+        - pcre2
+        - popt
+        - sed
         - setup
+        - shadow-utils
+        - tar
         - tzdata
+        - zlib

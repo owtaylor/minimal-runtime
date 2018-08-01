@@ -83,6 +83,7 @@ data:
     fake-module:
       import:
         - acl
+        - attr
         - audit
         - basesystem
         - bash
@@ -97,7 +98,6 @@ data:
         - glibc
         - gmp
         - grep
-        - libattr
         - libcap
         - libcap-ng
         - libffi
